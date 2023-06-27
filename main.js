@@ -41,7 +41,7 @@ function draw(){
     if(scoreleftwrist > 0.2){
         circle(leftwristx,leftwristy, 25);
         harry_potter_theme_song.stop();
-        if (song_music=false) {
+        if (song_music==false) {
             peter_pan_song.play();
         
             document.getElementById("song_id").innerHTML="song Name: peter pan song";
@@ -50,7 +50,7 @@ function draw(){
     if(scorerightwrist > 0.2){
         circle(rightwristx,righttwristy, 25);
         peter_pan_song.stop();
-        if (song_music2=false) {
+        if (song_music2==false) {
             harry_potter_theme_song.play();
         
             document.getElementById("song_id").innerHTML="song Name: harry_potter_theme_song";
